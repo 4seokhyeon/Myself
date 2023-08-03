@@ -39,6 +39,8 @@
             android:id="@+id/bl_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:layout_gravity="center"
             android:paddingLeft="61dp"
             android:text="아이디 :"
             android:textSize="20dp"/>
