@@ -36,8 +36,6 @@ class SignInActivity : AppCompatActivity() {
 
                 val intent = Intent(this, HomeActivity::class.java)
                 intent.putExtra("userId", id)
-
-
                 startActivity(intent)
 
             } else {

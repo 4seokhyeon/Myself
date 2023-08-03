@@ -18,7 +18,8 @@
             android:id="@+id/p_main"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/main" />
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher_round" />
 
 
     </LinearLayout>
@@ -33,7 +34,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="90dp" />
+            android:layout_height="50dp" />
 
         <TextView
             android:id="@+id/bl_id"
