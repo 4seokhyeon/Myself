@@ -12,14 +12,20 @@
         android:layout_height="1dp"
         android:layout_weight="1"
         android:orientation="vertical"
+        android:background="@drawable/multi"
         >
-
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
         <ImageView
             android:id="@+id/p_main"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:scaleType="fitXY"
-            android:src="@mipmap/ic_launcher_round" />
+            android:layout_width="270dp"
+            android:layout_height="270dp"
+            android:layout_gravity="center"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher_round"
+            android:background="@drawable/circle_background"/>
 
 
     </LinearLayout>
@@ -29,6 +35,7 @@
         android:layout_height="1dp"
         android:layout_weight="1"
         android:orientation="vertical"
+
         >
 
 
@@ -42,37 +49,42 @@
             android:layout_height="wrap_content"
             android:autoSizeTextType="uniform"
             android:layout_gravity="center"
-            android:paddingLeft="61dp"
+            android:paddingLeft="120dp"
             android:text="아이디 :"
-            android:textSize="20dp"/>
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
 
         <TextView
             android:id="@+id/bl_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="이름 :"
-            android:paddingLeft="60dp"
-            android:textSize="20dp"/>
-
-
-
+            android:paddingLeft="115dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
 
 
         <TextView
             android:id="@+id/bl_age"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingLeft="115dp"
             android:text="나이 : "
-            android:paddingLeft="60dp"
-            android:textSize="20dp"/>
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
 
         <TextView
             android:id="@+id/bl_mbti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="MBTI : "
-            android:paddingLeft="60dp"
-            android:textSize="20dp"/>
+            android:paddingLeft="110dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
 
         <Space
             android:layout_width="match_parent"
