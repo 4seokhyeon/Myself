@@ -8,8 +8,3 @@
 
 https://github.com/4seokhyeon/Myself/assets/106301222/e3527288-6e88-434e-9f3c-caf681e52db7
 
-
-
-https://github.com/4seokhyeon/Myself/assets/106301222/92781c0e-e1f2-442c-b0c7-7bec83bab0a7
-
-
